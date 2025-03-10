@@ -1,0 +1,189 @@
+{
+  "questions": [
+    {
+      "question": "Which statement is correct? 'A dog is bigger than a mouse but smaller than an elephant.'",
+      "options": [
+        "A dog is smaller than a mouse.",
+        "A dog is very big.",
+        "A dog is the biggest.",
+        "An elephant is bigger than a dog."
+      ],
+      "correct_answer": "An elephant is bigger than a dog."
+    },
+    {
+      "question": "What verb form completes the sentence, 'We usually ______ dinner at 8:00 p.m.'?",
+      "options": ["Eat", "Eating", "Never have eaten", "I don't know"],
+      "correct_answer": "Eat"
+    },
+    {
+      "question": "Which verb form completes the sentence, 'Yesterday, we ______ a very interesting conference call about the new ERP project'?",
+      "options": ["Are having", "Have", "Had", "Were had"],
+      "correct_answer": "Had"
+    },
+    {
+      "question": "Which verb completes the sentence, 'The plane ______ at New York's Kennedy Airport'?",
+      "options": ["Got down", "Took down", "Landed", "Drove"],
+      "correct_answer": "Landed"
+    },
+    {
+      "question": "Which phrase completes the sentence, 'Thomas White, who orchestrated ___________ rescue packages, will address the group'?",
+      "options": [
+        "Multi million dollars",
+        "Multi billions dollars",
+        "Multi-billion-dollar",
+        "Multi billion dollar"
+      ],
+      "correct_answer": "Multi-billion-dollar"
+    },
+    {
+      "question": "Identify the correct prepositions that complete the sentence, 'Where is the computer printer in relation to the table and the computer?'",
+      "options": [
+        "On ---- at",
+        "On ---- next to",
+        "On ---- on",
+        "On ---- under"
+      ],
+      "correct_answer": "On ---- next to"
+    },
+    {
+      "question": "Complete the sentence according to the context using the correct prepositions. 'She always gets up early ______ the morning, so she can make it to class ______ time.'",
+      "options": [
+        "By ---- in",
+        "In ---- in",
+        "On ---- on",
+        "In ---- on"
+      ],
+      "correct_answer": "In ---- on"
+    },
+    {
+      "question": "Based on the context of the sentence, choose the correct meaning of the word 'tome.' 'I took the tome off the shelf and opened it to page 94. Then I began to read.'",
+      "options": ["Food", "Clues", "A book", "A cigarette"],
+      "correct_answer": "A book"
+    },
+    {
+      "question": "Most poetry published in the South:",
+      "options": [
+        "Was cheerful in mood",
+        "Was melancholic",
+        "Did not reflect one of the familiar moods of the romantics",
+        "Was written by Edgar Allan Poe"
+      ],
+      "correct_answer": "Was melancholic"
+    },
+    {
+      "question": "Poe had a preference for poems that dealt with:",
+      "options": [
+        "The death of a child",
+        "Byronic despair",
+        "Southern belles",
+        "The death of a beautiful woman"
+      ],
+      "correct_answer": "The death of a beautiful woman"
+    },
+    {
+      "question": "The author implies that Southern belles:",
+      "options": [
+        "May often have been delicately sad",
+        "May often have died young",
+        "May have written many poems",
+        "May have lived very melancholy lives"
+      ],
+      "correct_answer": "May often have died young"
+    },
+    {
+      "question": "The Messenger published:",
+      "options": [
+        "Primarily melancholy poems",
+        "Only female poets",
+        "Only Southern poets who wrote melancholy poems",
+        "Many poems about death"
+      ],
+      "correct_answer": "Primarily melancholy poems"
+    },
+    {
+      "question": "The words 'reminiscent of' mean most nearly:",
+      "options": ["Prominent in", "Recalling", "Absent in", "Favored by"],
+      "correct_answer": "Recalling"
+    },
+    {
+      "question": "Choose the correct prepositions to complete the sentence. 'The professor said ________ the first day of the course that there would be a big final test _______ the end of the semester.'",
+      "options": ["At ---- on", "At ---- at", "On ---- at", "On ---- in"],
+      "correct_answer": "On ---- at"
+    },
+    {
+      "question": "Choose the correct meaning of the word 'abhorrent' based on the context of the sentence. 'The thought of eating a rat is abhorrent to most people.'",
+      "options": [
+        "Fun lively",
+        "Horrible  repugnant",
+        "Delicious tasty",
+        "Sweet sugary"
+      ],
+      "correct_answer": "Horrible repugnant"
+    },
+    {
+     "question": "Which of the following sentences is grammatically correct?",
+        "options": [
+          "He do not know the answer.",
+          "She do not likes coffee.",
+          "We do not want to go.",
+          "They do not need help."
+        ],
+      "correct_answer": "They do not need help."
+    },
+    {
+      "question": "Choose the correct verb form: 'By the time we arrived, the concert ______.'",
+      "options": ["Has ended", "Was ending", "Had ended", "Is ending"],
+      "correct_answer": "Had ended"
+    },
+    {
+      "question": "Identify the correct comparative structure: 'This book is ______ than that one.'",
+      "options": ["Most interesting", "More interesting", "As interesting", "The interesting"],
+      "correct_answer": "More interesting"
+    },
+    {
+      "question": "What is the meaning of the word 'indispensable' in the context: 'A skilled mechanic is indispensable in a racing team'?",
+      "options": [
+        "Replaceable",
+        "Unnecessary",
+        "Absolutely necessary",
+        "Unimportant"
+      ],
+      "correct_answer": "Absolutely necessary"
+    },
+    {
+      "question": "Choose the correct prepositions: 'The report focuses ______ environmental issues ______ the region.'",
+      "options": [
+        "At ---- of",
+        "On ---- in",
+        "About ---- to",
+        "On ---- to"
+      ],
+      "correct_answer": "On ---- in"
+    },
+    {
+      "question": "Select the correct phrasal verb: 'She finally ______ after arguing for hours.'",
+      "options": ["Gave up", "Broke up", "Turned out", "Set off"],
+      "correct_answer": "Gave up"
+    },
+    {
+      "question": "What is the meaning of 'tentative' in the context: 'The meeting was scheduled for a tentative date'?",
+      "options": ["Fixed", "Definite", "Temporary", "Uncertain"],
+      "correct_answer": "Uncertain"
+    },
+    {
+      "question": "Choose the correct form of the verb: 'If I ______ you, I would apologize.'",
+      "options": ["Am", "Were", "Was", "Will be"],
+      "correct_answer": "Were"
+    },
+    {
+      "question": "Identify the correct phrase: 'He was accused ______ theft.'",
+      "options": ["Of committing", "To committing", "For committing", "About committing"],
+      "correct_answer": "Of committing"
+    },
+    {
+      "question": "Which word correctly completes the sentence: 'The scientist's work was ______ by her peers as groundbreaking.'",
+      "options": ["Acknowledged", "Overlooked", "Dismissed", "Refused"],
+      "correct_answer": "Acknowledged"
+    }
+  ]
+}

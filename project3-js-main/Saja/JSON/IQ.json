@@ -1,0 +1,193 @@
+
+
+{
+    "questions": [
+        {
+            "question": "Gary has only forty-eight dollars. If he borrows fifty-seven dollars from Jane and fifteen dollars from Jill, he can buy a bicycle that costs one hundred twenty dollars. (disregarding tax.)",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correct_answer": "True"
+        },
+       
+       
+        {
+            "question": "If we were two hours from now, there would be half as much time left until midnight as there would have been if we were one hour from now. What time is it now?",
+            "options": [
+                "19:30",
+                "20:00",
+                "21:00",
+                "20:30",
+                "18:00",
+                "22:00"
+            ],
+            "correct_answer": "21:00"
+        },
+        {
+            "question": "At the end of the concert, 10 people greet each other. How many times will they greet each other?",
+            "options": [
+                "45",
+                "55",
+                "50",
+                "40"
+            ],
+            "correct_answer": "45"
+        },
+        {
+            "question": "If two people eat 2 slices of pizza in 2 minutes, how many people will it take to eat 18 pieces of pizza in 6 minutes?",
+            "options": [
+                "6",
+                "8",
+                "4",
+                "10"
+            ],
+            "correct_answer": "6"
+        },
+        {
+            "question": "Under the fence, 6 pairs of horse hooves are visible. How many horses are behind the fence?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "2"
+            ],
+            "correct_answer": "3"
+        },
+        {
+            "question": "Yura needs 13 bottles of water from the store. He can only bring 3 bottles on each arrival. At least how many times will Yura have to go to the store to buy 13 bottles of water?",
+            "options": [
+                "5",
+                "4",
+                "6",
+                "7"
+            ],
+            "correct_answer": "5"
+        },
+        {
+            "question": "Sasha is 25, Anya is 15, and Maxim is 30. How old is Dima?",
+            "options": [
+                "20",
+                "25",
+                "22",
+                "18"
+            ],
+            "correct_answer": "20"
+        },
+      
+        {
+            "question": "If the word, 'quane,' is understood to mean the same as the word, 'den,' then the following sentence is grammatically correct: 'Looking out from my quane, I could see a wolf enter quane.'",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correct_answer": "True"
+        },
+        {
+            "question": "If Richard looks into a mirror and touches his left ear with his right hand, Richard's image seems to touch its right ear with its left hand.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correct_answer": "True"
+        },
+        {
+            "question": "Two trains were stationed 60 km apart. They traveled towards each other at 40 km/h and 20 km/h respectively. A bee started flying between them, from one train to the other, at the same time, at 50 km/h. By the time they collided (or the bee got crushed), it would have flown:",
+            "options": [
+                "30 km",
+                "45 km",
+                "50 km",
+                "90 km",
+                "120 km"
+            ],
+            "correct_answer": "90 km"
+        },
+        {
+            "question": "x + y = 4, 10x + 10y = 40. These equations have:",
+            "options": [
+                "No solutions",
+                "1 solution",
+                "2 solutions",
+                "Infinity number of solutions",
+                "None of the above is true"
+            ],
+            "correct_answer": "Infinity number of solutions"
+        },
+        {
+            "question": "When I divided two numbers, the calculator display was 1.4242424242. The numbers were:",
+            "options": [
+                "141/100",
+                "141/99",
+                "142/100",
+                "142/99",
+                "142/10"
+            ],
+            "correct_answer": "141/99"
+        },
+        {
+            "question": "The height of St. Paul’s cathedral is 120 feet plus half its height. Its height is:",
+            "options": [
+                "60 feet",
+                "240 feet",
+                "120 feet",
+                "360 feet",
+                "100 feet"
+            ],
+            "correct_answer": "240 feet"
+        },
+        {
+            "question": "It takes 20 days for 5 men to do a certain job. How long will 4 men take to do the same job?",
+            "options": [
+                "8 days",
+                "14 days",
+                "25 days",
+                "5 days",
+                "45 days"
+            ],
+            "correct_answer": "25 days"
+        },
+        {
+            "question": "What shape fills the missing part?",
+            "image_path": "img_json/1.png",
+            "options": [
+                "img_json/2.jpeg",
+                "img_json/3.png",
+                "img_json/4.jpeg",
+                "img_json/5.jpeg",
+                "img_json/6.jpeg"
+            ],
+            "correct_answer": "img_json/3.png"
+          },
+          {
+            "question": "What shape fills the missing part?",
+            "image_path": "img_json/7.png",
+            "options": [
+              "img_json/8.png",
+               "img_json/9.png",
+              "img_json/10.png",
+               "img_json/11.png",
+              "img_json/12.png"
+
+            ],
+            "correct_answer": "img_json/11.png"
+          },
+          {
+            "question": "What shape fills the missing part?",
+            "image_path": "img_json/13.png",
+            "options": [
+               "img_json/14.png",
+              "img_json/15.png",
+             "img_json/16.png",
+              "img_json/17.png",
+               "img_json/18.png"
+
+            ],
+            "correct_answer": "img_json/15.png"
+          }
+          
+          
+          
+    ]
+}
+  
+

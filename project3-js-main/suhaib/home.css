@@ -1,0 +1,194 @@
+video{
+    width: 100%;
+}
+section{
+    background-color: #F6FAF9 !important;
+}
+#home {
+  width: 100%;
+  height: 600px;
+  position: relative;
+ 
+}
+
+#robo{
+    width: 100%;
+}
+.image-text {
+  position: absolute;
+  top: 16%;
+  left: 3%;
+  color: #04534F;
+  text-shadow: 0px 0px 4px black;
+}
+.image-text1 {
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    color: rgb(249, 242, 242);
+    text-shadow: 0px 0px 5px black;
+  }
+.btn-outline-green{
+    --bs-btn-color: #04534F !important;
+    --bs-btn-border-color: #04534F !important;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #04534F;
+    --bs-btn-hover-border-color: #04534F;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #04534F;
+    --bs-btn-active-border-color: #04534F;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #04534F;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #04534F;
+    --bs-gradient: none;
+}
+
+.btn-green{
+    --bs-btn-color: #fff !important;
+    --bs-btn-bg: #04534F !important;
+    --bs-btn-border-color: #04534F;
+    --bs-btn-hover-color: #04534F;
+    --bs-btn-hover-bg: #fff;
+    --bs-btn-hover-border-color: #04534F !important;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #04534F;
+    --bs-btn-active-border-color: #04534F;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #04534F;
+    --bs-btn-disabled-border-color: #04534F;
+   
+}
+.card-img-top{
+    height: 220.8px;
+}
+.card-body{
+    height: 576.92px;
+}
+
+
+
+
+/* From Uiverse.io by Spacious74 */ 
+.outer {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 1px;
+    background: radial-gradient(circle 230px at 0% 0%, #ffffff, #0c0d0d);
+    position: relative;
+  }
+  
+  .dot {
+    width: 5px;
+    aspect-ratio: 1;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ffffff;
+    border-radius: 100px;
+    z-index: 2;
+    right: 10%;
+    top: 10%;
+    animation: moveDot 6s linear infinite;
+  }
+  
+  @keyframes moveDot {
+    0%,
+    100% {
+      top: 10%;
+      right: 10%;
+    }
+    25% {
+      top: 10%;
+      right: calc(100% - 35px);
+    }
+    50% {
+      top: calc(100% - 30px);
+      right: calc(100% - 35px);
+    }
+    75% {
+      top: calc(100% - 30px);
+      right: 10%;
+    }
+  }
+  
+  .card1 {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+    border: solid 1px #202222;
+    background-size: 20px 20px;
+    background: radial-gradient(circle 280px at 0% 0%, #2c3837, #04534F);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    color: #fff;
+  }
+  .ray {
+    width: 220px;
+    height: 45px;
+    border-radius: 100px;
+    position: absolute;
+    background-color: #c7c7c7;
+    opacity: 0.4;
+    box-shadow: 0 0 50px #fff;
+    filter: blur(10px);
+    transform-origin: 10%;
+    top: 0%;
+    left: 0;
+    transform: rotate(40deg);
+  }
+  
+  .card1 .text {
+    font-weight: bolder;
+    font-size: 4rem;
+    background: linear-gradient(45deg, #000000 4%, #fff, #000);
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .line {
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background-color: #2c2c2c;
+  }
+  .topl {
+    top: 10%;
+    background: linear-gradient(90deg, #888888 30%, #1d1f1f 70%);
+  }
+  .bottoml {
+    bottom: 10%;
+  }
+  .leftl {
+    left: 10%;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(180deg, #747474 30%, #222424 70%);
+  }
+  .rightl {
+    right: 10%;
+    width: 1px;
+    height: 100%;
+  }
+  .card{
+    box-shadow: 5px 5px 5px 5px #04534f9c;
+  }
+
+  @media screen and (max-width : 426px) {
+    .col-md-8 button {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    #r1 .col-md-3 ,#r2 .col-md-3 ,#r3 .col-md-3{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+  }

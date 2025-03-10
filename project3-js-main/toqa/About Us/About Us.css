@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+.navbar-brand img {
+    width: 100%;
+    height: 55px;
+    margin: 0;
+}
+
+#join a {
+    display: inline-block;
+    height: fit-content;
+    border: #04534F solid;
+    background-color: #04534F;
+    color: #F6FAF9;
+}
+
+.all {
+    margin-top: 12vw;
+}
+
+
+.card-img-top{
+    height: 22VW;
+}
+/* 
+.row>*{
+    margin-bottom: 5vw;
+} */
+
+.card   {transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 2vw;
+}
+
+.card:hover{ transform: scale(1.05);
+    box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.3);}
+
+.landing{
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.Academy{
+    margin-left: 3vw;
+    margin-top: 10vw;
+}
+
+/* 3D Image Slider  */         /* 3D Image Slider  */         /* 3D Image Slider  */   
+   
+body::before{
+    position: absolute;
+    width: min(1400px, 90vw);
+    top: 10%;
+    left: 50%;
+    height: 90%;
+    transform: translateX(-50%);
+    content: '';
+    background-image: url(images/bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    pointer-events: none;
+}
+@import url('https://fonts.cdnfonts.com/css/ica-rubrik-black');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+
+/* I Created a dimension for the banner frame  */
+.banner{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden; 
+    /* overflow : hidden الهدف منها تخفي الاجزاء الي بتطلع عن حد ال frame  */
+    position: relative;
+}
+
+/* banner -> position relative "Parent" 
+slider position absolute*/
+.banner .slider{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: 10%; 
+    /* I moved it down 10%  from the banner */
+    left: calc(50% - 100px);
+    /* to put element in the center: 
+    50% from the left - (width/2)*/
+    transform-style: preserve-3d;
+    /* so i can make change in 3d space */
+    transform: perspective(1000px);
+    /* هاي ال 1000 هيه مسافة Z الي بتطلع من الصورة للجهاز */
+    animation: autoRun 20s linear infinite;
+    z-index: 2;
+}
+@keyframes autoRun{
+    from{
+        transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+    }to{
+        transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
+    }
+}
+/* slider -> position absolute "Parent 
+item position absolute*/
+.banner .slider .item{
+    position: absolute;
+    inset: 0 0 0 0;
+    /* inset sets the distance between the element's edges and the edges of it's parent
+that means it will give it the same size and position of the slider    
+    inset : top right bottom left*/
+    transform: 
+        rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+        translateZ(550px);
+        /* i use the transform to move the position in the z axis direction */
+}
+.banner .slider .item img{
+   /* i give it a width, height 100% to make it equal to the size of the item */
+    width: 100%;
+    height: 100%;
+    /*  to avoid distortion */
+    object-fit: cover;
+}
+
+
+
+
+
+@media screen and (max-width: 1023px) {
+    .banner .slider{
+        width: 160px;
+        height: 200px;
+        left: calc(50% - 80px);
+    }
+    .banner .slider .item{
+        transform: 
+            rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+            translateZ(300px);
+    }
+    
+}
+@media screen and (max-width: 426px) {
+    .banner .slider{
+        width: 100px;
+        height: 150px;
+        left: calc(50% - 50px);
+    }
+    .banner .slider .item{
+        transform: 
+            rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+            translateZ(180px);
+    }
+    .banner{
+        margin-bottom: -132vw;
+        margin-top: 9vw;
+    }
+}
+
+
+@media screen and (max-width:426px) {
+
+    .imgRes{
+        width: 70%;}
+}

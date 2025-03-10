@@ -1,0 +1,244 @@
+{
+    "questions": [
+        {
+            "question": "What is the correct sequence of HTML tags for starting a web page?",
+            "options": [
+                "<head><title><html>",
+                "<html><head><title>",
+                "<html><title><head>",
+                "<title><head><html>"
+            ],
+            "correct_answer": "<html><head><title>"
+        },
+        {
+            "question": "What is the default file extension for HTML files?",
+            "options": [
+                ".ht",
+                ".html",
+                ".hml",
+                ".htm"
+            ],
+            "correct_answer": ".html"
+        },
+        {
+            "question": "Which of the following is considered an empty element in HTML?",
+            "options": [
+                "<div>",
+                "<span>",
+                "<img>",
+                "<p>"
+            ],
+            "correct_answer": "<img>"
+        },
+        {
+            "question": "Which attribute is used to specify a tooltip for an HTML element?",
+            "options": [
+                "alt",
+                "title",
+                "tooltip",
+                "hint"
+            ],
+            "correct_answer": "title"
+        },
+        {
+            "question": "Which of the following is a block-level element in HTML?",
+            "options": [
+                "<span>",
+                "<div>",
+                "<a>",
+                "<img>"
+            ],
+            "correct_answer": "<div>"
+        },
+        {
+            "question": "Which attribute is used to specify the URL of an external stylesheet in HTML?",
+            "options": [
+                "src",
+                "href",
+                "link",
+                "rel"
+            ],
+            "correct_answer": "href"
+        },
+        {
+            "question": "Which CSS property is used to change the text color of an element?",
+            "options": [
+                "font-color",
+                "text-color",
+                "color",
+                "text-style"
+            ],
+            "correct_answer": "color"
+        },
+        {
+            "question": "Which CSS property is used to control the spacing between lines of text?",
+            "options": [
+                "line-spacing",
+                "line-height",
+                "text-spacing",
+                "spacing"
+            ],
+            "correct_answer": "line-height"
+        },
+        {
+            "question": "Which of the following is the correct way to apply a CSS style to a specific element by its ID?",
+            "options": [
+                "#id { property: value; }",
+                ".id { property: value; }",
+                "id { property: value; }",
+                "*id { property: value; }"
+            ],
+            "correct_answer": "#id { property: value; }"
+        },
+        {
+            "question": "Which CSS property is used to make an element’s background transparent?",
+            "options": [
+                "opacity",
+                "visibility",
+                "background-opacity",
+                "background-transparency"
+            ],
+            "correct_answer": "opacity"
+        },
+        {
+            "question": "What is the default position of elements in CSS?",
+            "options": [
+                "absolute",
+                "fixed",
+                "relative",
+                "static"
+            ],
+            "correct_answer": "static"
+        },
+        {
+            "question": "Which CSS property is used to change the font of an element?",
+            "options": [
+                "font-family",
+                "font-style",
+                "font-weight",
+                "font-face"
+            ],
+            "correct_answer": "font-family"
+        },
+        {
+            "question": "Which of the following keywords is used to define a constant in C#?",
+            "options": [
+                "constant",
+                "readonly",
+                "const",
+                "static"
+            ],
+            "correct_answer": "const"
+        },
+        {
+            "question": "What is the default value of a Boolean variable in C#?",
+            "options": [
+                "0",
+                "false",
+                "true",
+                "null"
+            ],
+            "correct_answer": "false"
+        },
+        {
+            "question": "Which of the following is the correct way to create an instance of a class in C#?",
+            "options": [
+                "new Class();",
+                "Class();",
+                "create Class();",
+                "Class new = new();"
+            ],
+            "correct_answer": "new Class();"
+        },
+        {
+            "question": "What is the purpose of the using keyword in C#?",
+            "options": [
+                "To import namespaces",
+                "To define constants",
+                "To create a new class",
+                "To declare variables"
+            ],
+            "correct_answer": "To import namespaces"
+        },
+        {
+            "question": "Which of the following is a valid way to define a method in C# that does not return a value?",
+            "options": [
+                "void MethodName()",
+                "MethodName()",
+                "null MethodName()",
+                "void = MethodName()"
+            ],
+            "correct_answer": "void MethodName()"
+        },
+        {
+            "question": "Which type of loop in C# will always execute the block of code at least once?",
+            "options": [
+                "for loop",
+                "while loop",
+                "do-while loop",
+                "foreach loop"
+            ],
+            "correct_answer": "do-while loop"
+        },
+        {
+            "question": "Which of the following methods can be used to add an element to the end of an array in JavaScript?",
+            "options": [
+                "push()",
+                "unshift()",
+                "pop()",
+                "shift()"
+            ],
+            "correct_answer": "push()"
+        },
+        {
+            "question": "What will be the output of the following code?\nlet arr = [1, 2, 3];\narr[10] = 5;\nconsole.log(arr.length);",
+            "options": [
+                "3",
+                "5",
+                "6",
+                "11"
+            ],
+            "correct_answer": "11"
+        },
+        {
+            "question": "What does the map() function in JavaScript return?",
+            "options": [
+                "A new array with the same length",
+                "A new array with modified values",
+                "A single modified value",
+                "A copy of the original array"
+            ],
+            "correct_answer": "A new array with modified values"
+        },
+        {
+            "question": "Which of the following JavaScript functions can be used to combine multiple arrays into a single array?",
+            "options": [
+                "concat()",
+                "join()",
+                "merge()",
+                "combine()"
+            ],
+            "correct_answer": "concat()"
+        },
+        {
+            "question": "What is the output of the following code?\nfunction test() {\n  return arguments.length;\n}\nconsole.log(test(1, 2, 3, 4));",
+            "options": [
+                "0",
+                "4",
+                "undefined",
+                "Error"
+            ],
+            "correct_answer": "4"
+        },
+        {
+            "question": "Which of the following methods can be used to remove the first element from an array in JavaScript?",
+            "options": [
+                "shift()",
+                "pop()",
+                "splice()",
+                "delete"
+            ],
+            "correct_answer": "shift()"
+        }
+    ]
+}

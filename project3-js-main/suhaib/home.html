@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../nav/style.css">
+    <script src="https://kit.fontawesome.com/4c8957d542.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home.css">
+    <title>Test here</title>
+</head>
+
+<body class="bg-body-tertiary">
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <div class="container-fluid">
+               
+                <a class="navbar-brand" href="#">
+                    <img src="../nav/image/logo.png" alt="Logo" style="width: 150px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" onclick="about()">About us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"onclick="Contact()">Contact us</a></li>
+                        <li class="nav-item" id="test" style="display:none;"><a class="nav-link" href="#" onclick="testhere()">Test here</a></li>
+                        <li class="nav-item" id="log"><a class="nav-link" href="#" onclick="Login()">Login</a></li>
+                        <li class="nav-item" id="join"><a class="nav-link" href="#" onclick="Register()">Register</a></li>
+                        <li class="nav-item" id="userProfile" style="display:none;"><a class="nav-link" href="#" onclick="profile()">Profile</a></li>
+                        <li class="nav-item" id="logout" style="display:none;"><a class="nav-link" href="#" onclick="logout()">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <section style="position: relative;">
+        <video src="./images/3946082-uhd_2160_4096_25fps (online-video-cutter.com).mp4 " autoplay muted loop></video>
+        <h1 class="image-text">Welcome to Mars Robotics,</h1>
+        <p class="image-text1">where innovation meets the future of technology.</p>
+    </section>
+
+    <!--get to know mars robotics section-->
+    
+    <section class="mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ">
+                    <h3>Get to know mars Robotics</h3>
+                    <p> <span style="color: #13b8b8;">MARSRobotics</span> brings to you recognized world class expertise in Unmanned Autonomous Aerial
+                        Vehicles
+                        (Drones) by a team of dedicated goal oriented engineers and administrators to meet your needs
+                        and
+                        expectation of world class services in surveying, aerial photography, inspection, precision
+                        farming,
+                        surveillance, homeland security, and the like. Founded by Dr. Mohammad Amin Al Jarrah, a
+                        Stanford
+                        University Graduate of Aeronautics and Astronautics in 1989 with more than 80 refereed
+                        publications
+                        related to Drones Technology since 1988 with the first UAV project known as JUST UAV project
+                        launched in 1992 in corporation with the Jordanian Armed Forces. <br><br>
+
+                        <b>At Mars Robotics,</b> innovation is at the core of everything we do. Our team continually
+                        pushes the
+                        boundaries of drone technology, integrating cutting-edge advancements in artificial
+                        intelligence, machine learning, and real-time data processing to deliver solutions that exceed
+                        industry standards. Our commitment to excellence ensures that every project we undertake is
+                        executed with precision, reliability, and a customer-centric approach. Whether you're seeking
+                        advanced aerial mapping or robust security surveillance, we bring unmatched expertise to the
+                        table. <br> <br>
+
+                       
+                    </p>
+
+                    
+
+                    
+                </div>
+                <div class="col-md-4 d-flex align-item-center justify-content-center">
+                    <img src="./images/new robot.jpg" alt="" id="robo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Learn more about our services section-->
+<hr>
+    <section class="mt-5 mb-5">
+
+        <div class="container">
+
+            <h2 class="mb-5 mt-5">Learn About Our services</h2>
+            <div class="row d-flex justify-content-center" id ='r1'>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/Lidar service.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">LiDAR</h4>
+                            <p class="card-text">  Mars Robotics offers state-of-the-art LiDAR mapping services for
+                                precise 3D data acquisition. Our UAVs equipped with advanced LiDAR technology deliver
+                                accurate mapping of terrains, structures, and dense vegetation. Ideal for applications
+                                like surveying, construction, and forestry, our solutions ensure speed, efficiency, and
+                                unmatched detail. Detect elevation changes, measure distances, and generate
+                                high-resolution models with ease. Trust Mars Robotics to provide innovative and reliable
+                                LiDAR mapping tailored to your needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/UAV.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Solar Cells Inspection using MARSRobotics UAV</h4>
+                            <p class="card-text">Enhance the efficiency and reliability of your solar energy systems
+                                with Mars Robotics UAV inspection services. Our advanced drones are equipped with
+                                high-resolution cameras and thermal imaging technology, enabling precise detection of
+                                panel defects, hotspots, and performance issues. Save time and reduce costs with rapid,
+                                non-invasive inspections that cover large areas effortlessly. Whether it's routine
+                                maintenance or troubleshooting, our UAVs deliver accurate, real-time data to optimize
+                                your solar power generation. Trust Mars Robotics for cutting-edge solutions tailored to
+                                the renewable energy sector.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/Drone mapping.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Drone Mapping for Precision Agriculture</h4>
+                            <p class="card-text">Revolutionize your farming operations with Mars Robotics' drone mapping
+                                solutions for precision agriculture. Our UAVs provide high-resolution aerial imagery and
+                                detailed field data to help you monitor crop health, soil conditions, and irrigation
+                                needs. Identify problem areas early with advanced analytics, ensuring optimal resource
+                                allocation and improved yields. From planting to harvest, our drone technology supports
+                                sustainable and efficient farming practices. Experience the future of agriculture with
+                                Mars Robotics—bringing innovation and accuracy to your fields.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!--our partners section-->
+<hr>
+    <section class="mt-5 mb-5">
+        <div class="container ">
+            <h2>Our Partners</h2>
+            <div class="row d-flex justify-content-center gap-5 mt-5 mb-5" id="r2">
+                <div class="col-md-3">
+                    <div class="outer">
+                        <div class="dot"></div>
+                        <div class="card1">
+                            <div class="ray"></div>
+                            <div class="text"></div>
+                            <div><img src="./images/botaaas.png" alt=""></div>
+                            <div class="line topl"></div>
+                            <div class="line leftl"></div>
+                            <div class="line bottoml"></div>
+                            <div class="line rightl"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+                    <div class="outer">
+                        <div class="dot"></div>
+                        <div class="card1">
+                            <div class="ray"></div>
+                            <div class="text"></div>
+                            <div><img src="./images/partner6.jpg" alt=""></div>
+                            <div class="line topl"></div>
+                            <div class="line leftl"></div>
+                            <div class="line bottoml"></div>
+                            <div class="line rightl"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="outer">
+                        <div class="dot"></div>
+                        <div class="card1">
+                            <div class="ray"></div>
+                            <div class="text"></div>
+                            <div><img src="./images/partner3.png" alt=""></div>
+                            <div class="line topl"></div>
+                            <div class="line leftl"></div>
+                            <div class="line bottoml"></div>
+                            <div class="line rightl"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row d-flex justify-content-center gap-5 mt-5" id = 'r3'>
+                <div class="col-md-3">
+                    <div class="outer">
+                        <div class="dot"></div>
+                        <div class="card1">
+                            <div class="ray"></div>
+                            <div class="text"></div>
+                            <div><img src="./images/partner4.png" alt=""></div>
+                            <div class="line topl"></div>
+                            <div class="line leftl"></div>
+                            <div class="line bottoml"></div>
+                            <div class="line rightl"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+                    <div class="outer">
+                        <div class="dot"></div>
+                        <div class="card1">
+                            <div class="ray"></div>
+                            <div class="text"></div>
+                            <div><img src="./images/partner 5.png" alt=""></div>
+                            <div class="line topl"></div>
+                            <div class="line leftl"></div>
+                            <div class="line bottoml"></div>
+                            <div class="line rightl"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+    </section>
+    <hr>
+    <section class="mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 d-flex align-item-center justify-content-center">
+                    <img src="./images/a4b761a09d5ddb3fcc293d5798d97c01.jpg" alt="" id="robo">
+                </div>
+                <div class="col-md-8 ">
+                    <h3>Our solutions</h3>
+                    <p> <b>Our solutions,</b> are designed not just to meet current demands but to anticipate future
+                        challenges.
+                        With an emphasis on sustainability, we are pioneering eco-friendly technologies that minimize
+                        environmental impact while maximizing operational efficiency. Our drones are engineered to
+                        operate seamlessly in diverse environments, from rugged terrains to urban settings, making them
+                        ideal for a wide range of applications including disaster management, wildlife monitoring, and
+                        industrial inspections. <br> <br>
+
+                        <b>As a company founded on a vision of excellence,</b> Mars Robotics is proud to collaborate
+                        with
+                        global leaders in technology and innovation. Our partnerships extend across academic
+                        institutions, government bodies, and private enterprises, ensuring our solutions are informed by
+                        the latest research and industry trends. Join us in shaping the future of autonomous technology,
+                        where our unwavering dedication to innovation and quality propels us—and our clients—to new
+                        heights.</p>
+
+                    
+
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--some of work section-->
+<hr>
+    <section class="mb-5 mt-5">
+        <div class="container">
+            <h2 class="mb-5 mt-5">Some Of Our Work</h2>
+            <div class="row">
+                <div class="col-md">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/frFBmV75Hi8?si=sd2oBNAskFbHgiUm"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="col-md">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/gYkaAIbt6xM?si=RLfosVnZ5T6bA0LN"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+          
+
+        </div>
+
+
+
+    </section>
+
+    <footer class="bg-ligth text-dark">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="row d-flex justify-content-start">
+                        <img class="footer-img" src="../nav/image/logo.png" alt="">
+                        <h6>Mazaari Autonomous Robotics System</h6>
+                        <p>MARSRobotics brings to you recognized world class expertise in Unmanned Autonomous Aerial
+                            Vehicles (Drones)</p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-2 space text-center">
+                    <div class="row">
+                        <h5>Sections</Section>
+                        </h5>
+                    </div>
+
+                    <div class="row footer"><a href="#">Home</a></div>
+                    <div class="row footer"><a href="#" onclick="about()">About us</a></div>
+                    <div class="row footer"><a href="#" onclick="Contact()">Contact us</a></div>
+                    <div class="row footer"><a href="#" onclick="aboutT()">Our Tests </a></div>
+                    
+                </div>
+
+                <div class="col-md-1 sociallink hor">
+                    <a class="fo float-end" href="https://www.facebook.com/marsrobotic" target="_blank">
+                        <i class="fa-brands fa-facebook p-3 text-dark"></i>
+                    </a>
+                   
+                    <a class="fo float-end" href="https://www.linkedin.com/company/mars-robotics/posts/?feedView=all" target="_blank">
+                        <i class="fa-brands fa-linkedin p-3 text-dark"></i>
+                    </a>
+                  
+                    <a class="fo float-end" href="mailto:mjarrah@marsrobotic.com">
+                        <i class="fa fa-envelope p-3 text-dark"></i>
+                    </a>
+                    
+                    
+                    
+                    <a class="fo float-end" href="tel:+96227102026">
+                        <i class="fa fa-phone p-3 text-dark"></i>
+                    </a>
+                </div>
+
+                <div class="col-md">
+                    <div class="row">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3364.0272935185317!2d35.87514047511093!3d32.52541799680236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c76f0573efd0b%3A0xa49ded1f5dbe5871!2sMARSROBOTICS!5e0!3m2!1sen!2sjo!4v1736453169982!5m2!1sen!2sjo"
+                            width="100%" height="200px" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <hr class="container m-2">
+                <div class="col-md-12 order text-center">
+                    <p>&copy;2025 MARSRobotics, Inc. All rights reserved.</p>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+    </footer>
+    <script src="home.js"></script>
+</body>
+
+</html>

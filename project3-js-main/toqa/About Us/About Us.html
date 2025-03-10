@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../nav/style.css">
+  <script src="https://kit.fontawesome.com/4c8957d542.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="About Us.css">
+
+  <title>About Us</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body class="bg-body-tertiary">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="logo.png" alt="Logo" style="width: 150px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#" onclick=home()>Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" onclick=Contact()>Contact us</a></li>
+            <li class="nav-item" id="test"><a class="nav-link" href="#" onclick="testhere()">Test here</a></li>
+            <li class="nav-item" id="log"><a class="nav-link" href="#" onclick="Login()">Login</a></li>
+            <li class="nav-item" id="join"><a class="nav-link" href="#" onclick="Register()">Register</a></li>
+            <li class="nav-item" id="userProfile"><a class="nav-link" href="#" onclick="profile()">Profile</a></li>
+            <li class="nav-item" id="logout"><a class="nav-link" href="#" onclick="logout()">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Notes to myself
+ 1.I created  a banner class element (inside it there is a slider class element (inside the slider there is (10 item class elemnts each contains image))) -->
+
+  <div class="banner">
+    <div class="slider" style="--quantity: 10">
+      <div class="item" style="--position: 1"><img src="./Aerial Survey.jpg" alt=""></div>
+      <div class="item" style="--position: 2"><img src="./Agricluter.jpg" alt=""></div>
+      <div class="item" style="--position: 3"><img src="./Areial Filming.jpg" alt=""></div>
+      <div class="item" style="--position: 4"><img src="./Mining.png" alt=""></div>
+      <div class="item" style="--position: 5"><img src="./Lidar.jpg" alt=""></div>
+      <div class="item" style="--position: 6"><img src="./Airdrone.jpg" alt=""></div>
+      <div class="item" style="--position: 7"><img src="./Airdrone2.jpg" alt=""></div>
+      <div class="item" style="--position: 8"><img src="./Airdrone3.jpg" alt=""></div>
+      <div class="item" style="--position: 9"><img src="./Airdrone4.jpg" alt=""></div>
+      <div class="item" style="--position: 10"><img src="./Airdrone5.jpg" alt=""></div>
+    </div>
+  </div>
+  <section class="all">
+    <section class="Services">
+      <div class="landing">
+        <!-- bootstrap class to center text only -->
+        <div class="text-center">
+          <br>
+          <h1>Welcome to MARS ROBOTICS!</h1>
+          <p> At Mars Robotics, we are pioneers in developing innovative robotic solutions that redefine the future of
+            technology.<br>
+            <b>Our Mission</b> is to push the boundaries of automation and artificial intelligence <br>to create
+            smarter, more efficient systems that improve lives.
+          </p>
+
+
+
+
+          <h2> Our Services</h2>
+          <br>
+          <div class="container">
+            <div class='row d-flex justify-content-center'>
+              <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                  <img src="Aerial Survey.jpg" class="card-img-top" alt="Areial Survey">
+                  <div class="card-body">
+                    <h5 class="card-title">Surveying and Mapping</h5>
+
+                    <p class="card-text">using (UAVs) equipped with cameras and sensors to capture high-resolution
+                      images
+                      and data for creating accurate maps, 3D models, and detailed surveys of land or infrastructure.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                  <img src="Areial Filming.jpg" class="card-img-top" alt="Arial Filming">
+                  <div class="card-body">
+                    <h5 class="card-title">Aerial Filming and Photography</h5>
+                    <p class="card-text"> drones equipped with cameras to capture stunning high-quality images and
+                      videos
+                      from unique perspectives, often used in cinematography, real estate, and marketing.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                  <img src="Agricluter.jpg" class="card-img-top" alt="Agricluter">
+                  <div class="card-body">
+                    <h5 class="card-title">Agriculture</h5>
+                    <p class="card-text">involves using drones equipped with sensors and cameras to monitor crop health,
+                      assess soil conditions, and optimize irrigation and fertilization for more efficient and
+                      sustainable
+                      farming practices.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="container">
+            <div class='row d-flex justify-content-center'>
+
+              <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                  <img src="Solar Cells.jpg" class="card-img-top" alt="Solar">
+                  <div class="card-body">
+                    <h5 class="card-title">Solar Cells Inspection using MARSRobotics UAV</h5>
+                    <p class="card-text"> Enhance the efficiency and reliability of your solar energy systems
+                      with Mars Robotics UAV inspection services.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                  <img src="Lidar.jpg" class="card-img-top" alt="LiDAR">
+                  <div class="card-body">
+                    <h5 class="card-title">LiDAR</h5>
+                    <p class="card-text">Mars Robotics offers state-of-the-art LiDAR mapping services for
+                      precise 3D data acquisition. Our UAVs equipped with advanced LiDAR technology deliver
+                      accurate mapping of terrains and structures.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                  <img src="Mining.png" class="card-img-top" alt="Mining">
+                  <div class="card-body">
+                    <h5 class="card-title">Mining</h5>
+                    <p class="card-text">Mining drones are used to capture aerial data for mapping, surveying,
+                      and monitoring mining sites, improving efficiency, safety, and resource management in the
+                      industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+    </section>
+    <section class="Academy">
+      <div class="container">
+
+
+        <div class="row">
+          <div class="col-md-6 ">
+
+            <h3>At MARS-Academy</h3>
+            <p> we are dedicated to providing top-tier education and training in drone technology.<br>
+              Our mission is to empower individuals to master the design, development, and operation of drones through
+              hands-on
+              experience and expert-led courses. Whether you’re new to the world of UAVs or looking to enhance your
+              professional skills, our
+              comprehensive curriculum covers everything from the fundamentals of drone technology to advanced
+              applications in fields such as
+              surveying, homeland security, and embedded systems. Our goal is to help you
+              unlock the full potential of drones, giving you the knowledge and tools needed to succeed in today’s
+              rapidly evolving industry. Join us at MARS-Academy and take your skills to new heights.</p>
+            <p>You Will be learning: <br>
+              1. Fundamentals of Drones. <br>
+              2. CONOPs for UAVs for Homeland Security.<br>
+              3. Embedded Systems using Raspberry PI.<br>
+              4. Surveying using drones and PIX4D.<br>
+              5. Provide advanced training that will take your skills as a professional drone user.</p>
+          </div>
+
+          <div class="col-md-6">
+            <img src="Academy.jpg" alt="Academy" class="imgRes">
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+    </Section>
+
+
+    <section class="Quiz " id="Q">
+      <div class="container">
+        <h3>Join Our Team!</h3>
+        <p>We believe that great technology starts with great minds. That’s why we are offering a unique opportunity for
+          talented individuals
+          to join our team as <b>Software Engineers.</b>
+          <br> To ensure we select the best candidates, we’ve designed a comprehensive assessment process that includes
+          <b> three critical fields </b> each test contains (10) questions and it's one way multiple choice test: 
+        </p>
+
+         <ul>
+                <li><b>IQ Test:</b> Measures problem-solving abilities, logical reasoning, and critical thinking skills essential for tackling complex challenges.</li> <br>
+                <li><b>English Test:</b>  Assesses communication skills to ensure effective collaboration within our global team.</li> <br>
+                <li><b>Technical Test:</b>Evaluates programming expertise, algorithms, and real-world software development knowledge.</li>
+              </ul> <br>  
+<!-- 
+        <div class='row d-flex justify-content-center'>
+          <div class="col-md-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+              <img src="IQ.jpg" class="card-img-top" alt="IQ">
+              <div class="card-body">
+                <h5 class="card-title">IQ Test</h5>
+
+                <p class="card-text">Measures problem-solving abilities, logical reasoning, and critical thinking
+                  skills.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+              <img src="English.jpg" class="card-img-top" alt="English ">
+              <div class="card-body">
+                <h5 class="card-title">English Test</h5>
+                <p class="card-text">Assesses communication skills to ensure effective collaboration within our global
+                  team.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+              <img src="Technical.jpg" class="card-img-top" alt="Technical">
+              <div class="card-body">
+                <h5 class="card-title">Technical Test</h5>
+                <p class="card-text"> Evaluates programming expertise, algorithms, and real-world software development
+                  knowledge. </p>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <br> <br>
+        <h3>Why Take Our Quiz?</h3>
+        <p>Our quiz system is not just a test; it’s an opportunity to showcase your skills and demonstrate your
+          potential.
+          We are looking for individuals who are passionate about innovation, <br>
+          thrive on solving tough problems, and are eager to contribute to groundbreaking robotic solutions.
+
+          Mars Robotics is more than a company—it’s a community of forward-thinkers<br>
+          and tech enthusiasts. Join us and be part of the future of robotics.</p>
+        </ul>
+
+      </div>
+
+
+    </section>
+  </section>
+
+
+  <footer class="bg-light text-dark">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="row d-flex justify-content-start">
+            <img class="footer-img" src="logo.png" alt="">
+            <h6>Mazaari Autonomous Robotics System</h6>
+            <p>MARSRobotics brings to you recognized world-class expertise in Unmanned Autonomous Aerial Vehicles
+              (Drones).</p>
+          </div>
+        </div>
+
+        <div class="col-md-2 space text-center">
+          <div class="row">
+            <h5>Sections</Section>
+            </h5>
+          </div>
+
+          <div class="row footer"><a href="#" onclick="home()">Home</a></div>
+          <div class="row footer"><a href="#" >About us</a></div>
+          <div class="row footer"><a href="#" onclick="Contact()">Contact us</a></div>
+          <div class="row footer"><a href="#Q" >Our Tests </a></div>
+
+        </div>
+
+        <div class="col-md-1 sociallink hor">
+          <a class="fo float-end" href="https://www.facebook.com/marsrobotic" target="_blank">
+            <i class="fa-brands fa-facebook p-3 text-dark"></i>
+          </a>
+
+          <a class="fo float-end" href="https://www.linkedin.com/company/mars-robotics/posts/?feedView=all"
+            target="_blank">
+            <i class="fa-brands fa-linkedin p-3 text-dark"></i>
+          </a>
+
+          <a class="fo float-end" href="mailto:mjarrah@marsrobotic.com">
+            <i class="fa fa-envelope p-3 text-dark"></i>
+          </a>
+
+
+
+          <a class="fo float-end" href="tel:+96227102026">
+            <i class="fa fa-phone p-3 text-dark"></i>
+          </a>
+        </div>
+
+        <div class="col-md">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3364.0272935185317!2d35.87514047511093!3d32.52541799680236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c76f0573efd0b%3A0xa49ded1f5dbe5871!2sMARSROBOTICS!5e0!3m2!1sen!2sjo!4v1736453169982!5m2!1sen!2sjo"
+            width="100%" height="200px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy;2025 MARSRobotics, Inc. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script>
+    let isLoggedIn = localStorage.getItem('isLoggedIn');
+
+    function updateNavbar() {
+      if (isLoggedIn === 'true') {
+        document.getElementById('test').style.display = 'block';
+        document.getElementById('userProfile').style.display = 'block';
+        document.getElementById('logout').style.display = 'block';
+        document.getElementById('log').style.display = 'none';
+        document.getElementById('join').style.display = 'none';
+      } else {
+        document.getElementById('test').style.display = 'none';
+        document.getElementById('userProfile').style.display = 'none';
+        document.getElementById('logout').style.display = 'none';
+        document.getElementById('log').style.display = 'block';
+        document.getElementById('join').style.display = 'block';
+      }
+    }
+
+    function home() {
+    window.location.href = '../../suhaib/home.html';
+    
+}
+
+    function Login() {
+      window.location.href = '../Login&SignUp/Login.html#signinForm'
+    }
+
+    function testhere() {
+
+      window.location.href = '../../sally/test-here/testHere.html'
+
+    }
+
+    function profile() {
+      window.location.href = '../../Saja/profile/profile.html'
+    }
+
+
+    function Register() {
+      window.location.href = '../Login&SignUp/Login.html?show=signup';
+    }
+
+    function about() {
+      window.location.href = '../toqa/About Us/About Us.html';
+
+    }
+    function aboutT() {
+      window.location.href = '#Q';
+
+    }
+    function Contact() {
+      window.location.href = '../../Ammar/Ammars/ContactUs/contactUs.html';
+
+    }
+
+
+    function logout() {
+      alert('Logged out successfully');
+      isLoggedIn = false;
+      localStorage.setItem('isLoggedIn', 'false');
+      localStorage.removeItem('user')
+      updateNavbar();
+    }
+
+    window.onload = updateNavbar;
+  </script>
+</body>
+
+</html>
